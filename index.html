@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css"/>
     <title>Doc's Memory Game</title>
     <link href="assets/css/style.css" rel="stylesheet">
-    <script src="main.js" charset="UTF-8"></script>
+    <script src="main.js"></script>
 </head>
 <body>
     <header>
@@ -13,9 +14,12 @@
     </header>
 
     <section>
-        <h2>Your Score:<span id="score"></span></h2>
-
-        <div class="table">
+        <div class="row">
+                <div class="col"><h2>Your Score: <span id="result"></span></h2></div>
+                <div class="col"><h2>Your Guesses: <span id="guess"></span></h2></div>
+        </div>
+        
+        <div class="grid">
         </div>
 
     </section>  
